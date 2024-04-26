@@ -5,4 +5,4 @@
 
 
 
-![LLMSR-viz](./LLMSR.png)
+![LLMSR-viz](./LLMSR.jpg)
