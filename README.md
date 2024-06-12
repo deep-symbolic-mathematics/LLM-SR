@@ -1,4 +1,4 @@
-# LLM-SR: Scientific Equation Discovery via Programming with Large Language Models
+# LLM-SR: Scientific Equation Discovery and Symbolic Regression via Programming with Large Language Models
 
 [![arXiv](https://img.shields.io/badge/arXiv-2404.18400-b31b1b.svg)](https://arxiv.org/abs/2404.18400)
 
