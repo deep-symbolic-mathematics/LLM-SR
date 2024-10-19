@@ -6,7 +6,7 @@
 Official Implementation of paper [LLM-SR: Scientific Equation Discovery via Programming with LLMs](https://arxiv.org/abs/2404.18400).
 
 
-[Paper](https://arxiv.org/abs/2404.18400) | [Data](https://github.com/deep-symbolic-mathematics/LLM-SR/data/) | [Code](https://github.com/deep-symbolic-mathematics/LLM-SR/)
+[Paper](https://arxiv.org/abs/2404.18400) | [Data](https://github.com/deep-symbolic-mathematics/LLM-SR/data/)
 
 
 ## Overview
