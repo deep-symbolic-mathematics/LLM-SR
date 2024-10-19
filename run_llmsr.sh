@@ -30,7 +30,7 @@
 
 
 # oscillation 2
-python main.py --problem_name oscillator2 --spec_path ./specs/specification_oscillator2_numpy.txt --log_path ./logs/oscillator2_local
+# python main.py --problem_name oscillator2 --spec_path ./specs/specification_oscillator2_numpy.txt --log_path ./logs/oscillator2_local
 
 
 # bacterial-growth
