@@ -1,0 +1,55 @@
+"""
+Find the mathematical function skeleton that represents acceleration in a damped nonlinear oscillator system with driving force, given data on time, position, and velocity. 
+"""
+
+
+import numpy as np
+
+#Initialize parameters
+MAX_NPARAMS = 10
+PRAMS_INIT = [1.0]*MAX_NPARAMS
+
+
+@evaluate.run
+def evaluate(data: dict) -> float:
+    """ Evaluate the equation on data observations."""
+    
+    # Load data observations
+    inputs, outputs = data['inputs'], data['outputs']
+    t, x, v = inputs[:,0], inputs[:,1], inputs[:,2]
+    
+    # Optimize parameters based on data
+    from scipy.optimize import minimize
+    def loss(params):
+        y_pred = equation(t, x, v, params)
+        return np.mean((y_pred - outputs) ** 2)
+
+    loss_partial = lambda params: loss(params)
+    result = minimize(loss_partial, [1.0]*MAX_NPARAMS, method='BFGS')
+    
+    # Return evaluation score
+    optimized_params = result.x
+    loss = result.fun
+
+    if np.isnan(loss) or np.isinf(loss):
+        return None
+    else:
+        return -loss
+
+
+
+@equation.evolve
+def equation(t: np.ndarray, x: np.ndarray, v: np.ndarray, params: np.ndarray) -> np.ndarray:
+    """ Mathematical function for acceleration in a damped nonlinear oscillator
+
+    Args:
+        t: A numpy array representing time.
+        x: A numpy array representing observations of current position.
+        v: A numpy array representing observations of velocity.
+        params: Array of numeric constants or parameters to be optimized
+
+    Return:
+        A numpy array representing acceleration as the result of applying the mathematical function to the inputs.
+    """
+    dv = params[0] * t + params[1] * x  +  params[2] * v +  + params[3]
+    return dv
