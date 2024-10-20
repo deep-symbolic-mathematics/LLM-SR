@@ -36,7 +36,7 @@ Note: Requires Python ≥ 3.9
 
 
 ## Datasets
-Benchmark datasets studied in this paper are provided in the [data/](./data) directory. For details on datasets and generation settings, please refer to Appendix D in the [paper](https://arxiv.org/abs/2404.18400).
+Benchmark datasets studied in this paper are provided in the [data/](./data) directory. For details on datasets and generation settings, please refer to [paper](https://arxiv.org/abs/2404.18400).
 
 
 ## Local Runs (Open-Source LLMs)
@@ -116,7 +116,7 @@ Note: We observed slightly better performance from `numpy+BFGS` compared to `tor
 
 ## Configuration 
 
-Above commands use default pipeline parameters. To change parameters for experiments, refer to [config.py](./llmsr/config.py).
+The above commands use default pipeline parameters. To change parameters for experiments, refer to [config.py](./llmsr/config.py).
 
 
 
