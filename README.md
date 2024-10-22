@@ -137,7 +137,7 @@ This repository is licensed under MIT licence.
 
 
 
-This work is built on top of other open source projects, including [FunSearch](https://github.com/google-deepmind/funsearch), [PySR](https://github.com/MilesCranmer/PySR), and [Neural Symbolic Regression that scales (NeSymReS)](https://github.com/SymposiumOrganization/NeuralSymbolicRegressionThatScales). We sincerely thank the original contributors of these works for open-sourcing their valuable source codes. 
+This work is built on top of other open source projects, including [FunSearch](https://github.com/google-deepmind/funsearch), [PySR](https://github.com/MilesCranmer/PySR), and [Neural Symbolic Regression that scales](https://github.com/SymposiumOrganization/NeuralSymbolicRegressionThatScales). We sincerely thank the original contributors of these works for open-sourcing their valuable source codes. 
 
 
 
