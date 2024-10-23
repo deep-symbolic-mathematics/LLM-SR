@@ -6,7 +6,7 @@ accelerate==0.27.2
 bitsandbytes==0.42.0
 fastapi==0.110.0
 flask==3.0.2
-flask-cors==4.0.0
+flask-cors==4.0.2
 huggingface-hub==0.20.3
 matplotlib==3.8.3
 numpy==1.26.4
