@@ -121,7 +121,7 @@ The above commands use default pipeline parameters. To change parameters for exp
 
 
 ## Citation
-If you find the paper or the repo helpful, please cite it with
+Read our [paper](https://arxiv.org/abs/2404.18400) for more information about the setup (or contact us ☺️)). If you find our paper or the repo helpful, please cite us with
 <pre>
 @article{shojaee2024llm,
   title={Llm-sr: Scientific equation discovery via programming with large language models},
