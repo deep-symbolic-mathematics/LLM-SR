@@ -85,7 +85,7 @@ For more example scripts, check `run_llmsr.sh`.
 
 
 ## API Runs (Closed LLMs)
-To run LLM-SR with the OpenAI GPT APIS, use the following command: 
+To run LLM-SR with the OpenAI GPT API, use the following command: 
 
 ```
 export API_KEY=[YOUR_API_KEY_HERE]
