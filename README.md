@@ -1,8 +1,8 @@
 # `LLM-SR`: Scientific Equation Discovery and Symbolic Regression via Programming with LLMs
 
 [![Paper](https://img.shields.io/badge/arXiv-2404.18400-b31b1b.svg)](https://arxiv.org/abs/2404.18400)
-![Data](https://img.shields.io/website?down_message=down&style=for-the-badge&up_message=up&url=https%3A%2F%2Fgithub.com/deep-symbolic-mathematics/LLM-SR/data)
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=deep-symbolic-mathematics.LLM-SR&left_color=red&right_color=green&left_text=Hello%20Visitors)
+![Data](https://img.shields.io/github/size/deep-symbolic-mathematics/LLM-SR/data?label=Data&style=flat-square)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=deep-symbolic-mathematics.LLM-SR)
 ![GitHub Repo stars](https://img.shields.io/github/stars/deep-symbolic-mathematics/LLM-SR?style=social)
 
 
