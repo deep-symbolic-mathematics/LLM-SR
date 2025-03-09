@@ -50,5 +50,5 @@ def equation(x: np.ndarray, v: np.ndarray, params: np.ndarray) -> np.ndarray:
     Return:
         A numpy array representing acceleration as the result of applying the mathematical function to the inputs.
     """
-    dv = params[0] * x  +  params[1] * v +  + params[3]
+    dv = params[0] * x  +  params[1] * v  + params[2]
     return dv
