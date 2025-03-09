@@ -2,7 +2,6 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-2404.18400-b31b1b.svg)](https://arxiv.org/abs/2404.18400)
 [![Data](https://img.shields.io/github/directory-file-count/deep-symbolic-mathematics/LLM-SR/data?label=Data%20Files&style=flat-square)](./data/)
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=deep-symbolic-mathematics.LLM-SR)
 ![GitHub Repo stars](https://img.shields.io/github/stars/deep-symbolic-mathematics/LLM-SR?style=social)
 
 
