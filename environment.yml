@@ -20,6 +20,7 @@ dependencies:
   - tk=8.6.12=h1ccaba5_0
   - xz=5.4.5=h5eee18b_0
   - zlib=1.2.13=h5eee18b_0
+  - pip=24.3
   - pip:
     - absl-py==2.1.0
     - accelerate==0.27.2
