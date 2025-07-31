@@ -136,17 +136,16 @@ Read our [paper](https://arxiv.org/abs/2404.18400) for more information about th
 </pre>
 
 
-## License 
-This repository is licensed under MIT licence.
-
-
-
-This work is built on top of other open source projects, including [FunSearch](https://github.com/google-deepmind/funsearch), [PySR](https://github.com/MilesCranmer/PySR), and [Neural Symbolic Regression that scales](https://github.com/SymposiumOrganization/NeuralSymbolicRegressionThatScales). We thank the original contributors of these works for open-sourcing their valuable source codes. 
-
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=deep-symbolic-mathematics/LLM-SR&type=Date)](https://www.star-history.com/#deep-symbolic-mathematics/LLM-SR&Date)
+
+
+
+## License 
+This repository is licensed under MIT licence.
+
+This work is built on top of other open source projects, including [FunSearch](https://github.com/google-deepmind/funsearch), [PySR](https://github.com/MilesCranmer/PySR), and [Neural Symbolic Regression that scales](https://github.com/SymposiumOrganization/NeuralSymbolicRegressionThatScales). We thank the original contributors of these works for open-sourcing their valuable source codes. 
 
 
 ## Contact Us
